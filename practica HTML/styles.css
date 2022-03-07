@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+html {
+    background: #cbcbcb;
+}
+
+body {
+    width: 750px;
+    display: flex;
+    background: #414141;
+    margin: auto;
+    flex-wrap: wrap;
+    
+    
+}
+
+.seleccion {
+    position: relative;
+    top: 40px;
+    right: 430px;
+}
+
+header {
+    height: 250px;
+    width: 750px;
+    background: #1a1a1a;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+#logo {
+    height: 250px;
+    
+}
+
+#banner {
+    height: 250px;
+    
+}
+
+.producto {
+    width: 200px;
+    margin: 10px;
+    border: 10px solid #cbcbcb;
+    background-color: #cbcbcb ;
+    flex: 200px
+}
+
+.price {
+    justify-content: center;
+    
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.nav_bar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #9a9a9a;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #414141;
+}
+
+label {
+    font-size: 25px;
+    color: #cbcbcb;
+    margin: 5px;
+}
+
+input {
+    background: #cbcbcb;
+    font-size: 25px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 5px;
+}
+button {
+    height: auto;
+    width: auto;
+    position: relative;
+    left: 400px;
+    top: 0px;
+    background-color: #cbcbcb;
+    font-size: 30px;
+}
