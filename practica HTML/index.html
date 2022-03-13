@@ -1,25 +1,143 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pasteles Bruno's</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body class="acerca_de" >
-<header>
-    <section id="logo"><img src="resources/logo.png" alt="Logo Bruno's"></section>
-</header>
-<nav>
-    <ul class="nav_bar" >
-        <li><a href="pasteles.html">Pasteles y Pedidos</a></li>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        font-family: "Dancing Script", cursive;
+        box-sizing: border-box;
+      }
+
+      html {
+        background: #cbcbcb;
+        position: absolute;
+      }
+
+      body {
+        width: 750px;
+        display: flex;
+        background: #414141;
+        margin: auto;
+        flex-wrap: wrap;
+        position: relative;
+        left: 300px;
+      }
+
+      header {
+        height: 250px;
+        width: 750px;
+        background: #1a1a1a;
+      }
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
+
+      #logo {
+        height: 250px;
+      }
+
+      .nav_bar {
+          width: 750px;
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #9a9a9a;
+      }
+
+      li {
+        float: left;
+        list-style-type: none;
+      }
+
+      li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #414141;
+      }
+      label {
+        font-size: 25px;
+        color: #cbcbcb;
+        margin: 5px;
+      }
+      label.titulo-pastel {
+        font-size: 2em;
+        position: absolute;
+      }
+      input {
+        background: #cbcbcb;
+        font-size: 25px;
+        height: 40px;
+        border-radius: 15px;
+        margin: 5px;
+      }
+      button {
+        height: auto;
+        width: auto;
+        position: relative;
+        left: 100px;
+        top: 130px;
+        background-color: #cbcbcb;
+        font-size: 30px;
+      }
+      .pasteles {
+        position: relative;
+        top: 50px;
+        right: 430px;
+      }
+
+      #adornos {
+        position: relative;
+        top: 50px;
+        left: 13px;
+      }
+
+      form {
+        width: 750px;
+        height: 700px;
+      }
+      .articulo {
+          width: 750px;
+      }
+      .articulo h2 {
+          text-align: center;
+          color: #cbcbcb;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section id="logo">
+        <img src="resources/logo.png" alt="Logo Bruno's" />
+      </section>
+    </header>
+    <nav class="bar">
+      <ul class="nav_bar">
+        <li><a href="pasteles.html">Pasteles</a></li>
         <li><a href="productos.html">Adornos</a></li>
-    </ul>
-</nav>
+        <li><a href="pedidos.html">Pedidos</a></li>
+      </ul>
+    </nav>
+    <div class="articulo">
+      <h2>Pasteles Artesanales <br>con ingredientes frescos y de calidad. </h2>
+      <div>
+        <img src="resources/desserts-ga713382cf_1920.jpg" alt="">
+      </div>
 
-<footer>
+    </div>
 
-</footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
