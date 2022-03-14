@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteles</title>
+    <style>
+        * {
+          padding: 0px;
+          margin: 0px;
+          font-family: "Dancing Script", cursive;
+          box-sizing: border-box;
+        }
+        
+        html {
+          background: #cbcbcb;
+          position: absolute;
+        }
+        
+        body {
+          width: 750px;
+          display: flex;
+          background: #414141;
+          margin: 0 auto;
+          flex-wrap: wrap;
+          position: relative;
+          left: 300px;
+        }
+        
+        header {
+          height: 250px;
+          width: 750px;
+          background: #1a1a1a;
+        }
+        
+        img {
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: contain;
+        }
+        
+        #logo {
+          height: 250px;
+        }
+        
+        .nav_bar {
+          list-style-type: none;
+          overflow: hidden;
+          background-color: #9a9a9a;
+        }
+        
+        li {
+          float: left;
+          list-style-type: none;
+        }
+        
+        li a {
+          display: block;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #414141;
+        }
+
+        main {
+            position: relative;
+            height: 900px;
+            width: 750px;
+            background: #414141;
+        }
+
+        section {
+            position: relative;
+            top: 10px;
+        }
+        h2 {
+            color: #cbcbcb;
+            font-size: 2em;
+            text-align: center;
+        }
+        
+        .inventario-pasteles {
+            position: relative;
+            margin: 0%;
+            color: #cbcbcb;
+            text-align: center;
+            top: 20px;
+            left: 250px;
+            border: 3px solid #9a9a9a;
+        }
+        #adornos {
+            position: relative;
+            top: 50px;
+        }
+        .inventario-adornos {
+            position: relative;
+            margin: 0%;
+            color: #cbcbcb;
+            text-align: center;
+            top: 70px;
+            left: 220px;
+            border: 3px solid #9a9a9a;
+        }
+        #pedidos-titulo {
+            position: relative;
+            top: 95px;
+        }
+        .pedidos {
+            position: relative;
+            margin: 0%;
+            color: #cbcbcb;
+            text-align: center;
+            top: 120px;
+            left: 200px;
+            border: 3px solid #9a9a9a;
+        }
+        td, th {
+            border:#757575 1px solid ;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <section id="logo"><img src="resources/logo.png" alt="Logo Bruno's"></section>
+</header>
+<main>
+<section>
+    <h2>Inventario de<br>Pasteles</h2>
+    <table class="inventario-pasteles">
+        <tbody>
+            
+            <tr>
+                <th>Pastel</th>
+                <th>Cantidad en existencia</th>
+            </tr>
+            
+            <tr>
+                <td>Tarta de Blueberries</td>
+                <td>6</td>
+            </tr>
+            
+            <tr>
+                <td>Pastel de Higo</td>
+                <td>7</td>
+            </tr>
+            
+            <tr>
+                <td>Pastel de Chocolate</td>
+                <td>5</td>
+            </tr>
+        
+            <tr>
+                <td>Pastel de Vainilla</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Pastel de Zanahoria</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <h2 id="adornos">Inventario de<br>Adornos</h2>
+    <table class="inventario-adornos">
+        <tbody>
+            
+            <tr>
+                <th>Adornos</th>
+                <th>Cantidad en existencia</th>
+            </tr>
+            
+            <tr>
+                <td>Carteles para pastel de bodas</td>
+                <td>2</td>
+            </tr>
+            
+            <tr>
+                <td>Muñecos para pastel de bodas</td>
+                <td>5</td>
+            </tr>
+            
+            <tr>
+                <td>Velitas de cumpleaños</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <h2 id="pedidos-titulo">Inventario de<br>Adornos</h2>
+    <table class="pedidos">
+        <tbody>
+            
+            <tr>
+                <th>Datos de Contacto</th>
+                <th>Pedido</th>
+            </tr>
+            
+            <tr>
+                <td>
+                    <p>
+                        Pepe Pecas <br>
+                        pepepecas123@gmail.com <br>
+                        123-456-789 <br>
+                        Calle José Ortega y Gasset, 40 - loc <br>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        2 Pasteles de Zanahoria <br>
+                        1 Pastel de Vainilla <br>
+                        1 Cartel para pastel de boda
+
+                    </p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <p>
+                        Pepe Pecas <br>
+                        pepepecas123@gmail.com <br>
+                        123-456-789 <br>
+                        Calle José Ortega y Gasset, 40 - loc <br>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        2 Pasteles de Zanahoria <br>
+                        1 Pastel de Vainilla <br>
+                        1 Cartel para pastel de boda
+
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>
+                        Pepe Pecas <br>
+                        pepepecas123@gmail.com <br>
+                        123-456-789 <br>
+                        Calle José Ortega y Gasset, 40 - loc <br>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        2 Pasteles de Zanahoria <br>
+                        1 Pastel de Vainilla <br>
+                        1 Cartel para pastel de boda
+
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
